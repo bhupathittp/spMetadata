@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" entityID="https://mazhavil.SVTdrp6v1-svt-lb1.verify.idassert.com/sso/tenant/mazhavil/location/CA/applications/TestApp/metadata" validUntil="2035-12-09T05:52:25.886Z" xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+   <md:SPSSODescriptor AuthnRequestsSigned="false" WantAssertionsSigned="false" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+      <md:KeyDescriptor use="signing">
+         <ds:KeyInfo>
+            <ds:X509Data>
+               <ds:X509Certificate>MIIErDCCA5SgAwIBAgIOAZsL960fAAAAAHSX5FowDQYJKoZIhvcNAQELBQAwgZAx
+KDAmBgNVBAMMH1NlbGZTaWduZWRDZXJ0XzExRGVjMjAyNV8wNTUyMTkxGDAWBgNV
+BAsMDzAwRGdMMDAwMDBHVHA3YTEXMBUGA1UECgwOU2FsZXNmb3JjZS5jb20xFjAU
+BgNVBAcMDVNhbiBGcmFuY2lzY28xCzAJBgNVBAgMAkNBMQwwCgYDVQQGEwNVU0Ew
+HhcNMjUxMjExMDU1MjE5WhcNMjYxMjExMDAwMDAwWjCBkDEoMCYGA1UEAwwfU2Vs
+ZlNpZ25lZENlcnRfMTFEZWMyMDI1XzA1NTIxOTEYMBYGA1UECwwPMDBEZ0wwMDAw
+MEdUcDdhMRcwFQYDVQQKDA5TYWxlc2ZvcmNlLmNvbTEWMBQGA1UEBwwNU2FuIEZy
+YW5jaXNjbzELMAkGA1UECAwCQ0ExDDAKBgNVBAYTA1VTQTCCASIwDQYJKoZIhvcN
+AQEBBQADggEPADCCAQoCggEBAMgHXd1974jRx2RHdvTQ8cBnnmTiUIbqixZd5Wqv
+WZa7Yinf3ndI2QlWARH48QzvY9W7b7qL9v7urA249wR7bwXWqf4e8y71AIk0OZfp
+oK/MX2Gy6zm2RjIWSs2ivzT+cnfm6tOO+HMBIfEIJJv2ZbqTLL6P9JmhX6tfk2HK
++nKPC/iuC4VrVB+ziNlyoJBf4fXwTbOJI6J9pn0jOzjkjWaoksKQmH7H1M5YJ6/9
+ehxiVNqv37ydzXn969HZ4jFVbsR4THfLUkZCo+Nh66PqhV0G47J6rAzS2WV1S20+
+W/Q8v5vG9F343TJ05h4IYirauLTsjGpLnWICqihTHo3RUlcCAwEAAaOCAQAwgf0w
+HQYDVR0OBBYEFPokLgGTLaH582yizVdNSXlOki1rMA8GA1UdEwEB/wQFMAMBAf8w
+gcoGA1UdIwSBwjCBv4AU+iQuAZMtofnzbKLNV01JeU6SLWuhgZakgZMwgZAxKDAm
+BgNVBAMMH1NlbGZTaWduZWRDZXJ0XzExRGVjMjAyNV8wNTUyMTkxGDAWBgNVBAsM
+DzAwRGdMMDAwMDBHVHA3YTEXMBUGA1UECgwOU2FsZXNmb3JjZS5jb20xFjAUBgNV
+BAcMDVNhbiBGcmFuY2lzY28xCzAJBgNVBAgMAkNBMQwwCgYDVQQGEwNVU0GCDgGb
+C/etHwAAAAB0l+RaMA0GCSqGSIb3DQEBCwUAA4IBAQBAclOqgB7m3tZCqZkvaiX7
+xVieIjRnunkBTkM0vutKlbGCO1zhT+VSNKq53Ki3506yA0OfiVhe2czSCfR1ktLk
+dITJhhiTdybbhKa8uGlkuNx3xwL2o4I8f9xgmHt+PMvwTypzpjCHKsG5J8ntoozH
+ElH0QioIbJ66Nk1qqFy4TaWGAonOaKHycF1m3PLgBAQ6uoFgL4RNr5KePLv9eL96
+BUyTpXb+KHW9M3mAy2NNCFAXya2wQi4Irpd1FbLym7B7bvJkfW7JBhFvjv9FFHw+
+CQUZ+ZiQjKb9eXCepS3JpG5nb7LRWgN7QnZq0jxBJ4lqDsQsFLmMUPzskoPZFpwO</ds:X509Certificate>
+            </ds:X509Data>
+         </ds:KeyInfo>
+      </md:KeyDescriptor>
+      <md:NameIDFormat>urn:oasis:names:tc:SAML:1.1:nameid-format:unspecified</md:NameIDFormat>
+      <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://orgfarm-5d71f2a7fc-dev-ed.develop.my.salesforce.com" index="0" isDefault="true"/>
+      <md:AttributeConsumingService isDefault="true">
+         <md:ServiceName xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:lang="en">Salesforce.com</md:ServiceName>
+         <md:RequestedAttribute Name="User.Email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic" isRequired="true"/>
+      </md:AttributeConsumingService>
+   </md:SPSSODescriptor>
+</md:EntityDescriptor>
